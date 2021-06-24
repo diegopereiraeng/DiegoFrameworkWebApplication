@@ -38,7 +38,6 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    versioningScheme: 'byBuildNumber'
     includeSymbols: true
     includeReferencedProjects: true
     packDestination: '$(Build.ArtifactStagingDirectory)'
