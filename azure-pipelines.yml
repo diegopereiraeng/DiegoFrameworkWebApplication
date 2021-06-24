@@ -33,13 +33,14 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+# Pack
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
     versioningScheme: 'byBuildNumber'
     includeSymbols: true
-    toolPackage: true
+    includeReferencedProjects: true
     packDestination: '$(Build.ArtifactStagingDirectory)'
 
 # Push a project
