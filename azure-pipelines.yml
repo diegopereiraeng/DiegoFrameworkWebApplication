@@ -37,6 +37,9 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
+    versioningScheme: 'byBuildNumber'
+    includeSymbols: true
+    toolPackage: true
     packDestination: '$(Build.ArtifactStagingDirectory)'
 
 # Push a project
