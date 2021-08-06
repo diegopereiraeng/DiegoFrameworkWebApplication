@@ -41,6 +41,7 @@ steps:
     includeSymbols: true
     includeReferencedProjects: true
     packDestination: '$(Build.ArtifactStagingDirectory)'
+    versioningScheme: 'byBuildNumber'
 
 # Push a project
 - task: NuGetCommand@2
