@@ -252,9 +252,11 @@ function getRandomPosition() {
 <div id="board">  
   <div id="content">
     <p id="title">Episode I</p>
-    <p id="subtitle">THE CODER'S MENACE</p>
+    <p id="subtitle">THE DEVOPS'S CHALENGE</p>
     <br>
-    <p>Turmoil has engulfed the Galactic Republic as Christopher Kade finishes studying to become a master in his trade.</p>    
+    <p>People were getting strugled with their butler and tired of developing script and more scripts for their CI/CD process.</p>    
+    <p>In 2016 Harness borned, bring these people the opportunity to pack and delivery fast without breaking things.</p>
+    <p>Thanks Customer for watching the demo!!</p>
     <!-- Add as many paragraphs as you want -->
     <!-- And make it cheesy ! -->
   </div>  
