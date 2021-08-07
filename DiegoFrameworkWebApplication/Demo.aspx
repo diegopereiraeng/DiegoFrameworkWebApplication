@@ -252,7 +252,7 @@ function getRandomPosition() {
 <div id="board">  
   <div id="content">
     <p id="title">Episode I</p>
-    <p id="subtitle">THE DEVOPS'S CHALENGE</p>
+    <p id="subtitle">THE DEVOPS'S CHALLENGE</p>
     <br>
     <p>People were getting strugled with their butler and tired of developing script and more scripts for their CI/CD process.</p>    
     <p>In 2016 Harness borned, bring these people the opportunity to pack and delivery fast without breaking things.</p>
